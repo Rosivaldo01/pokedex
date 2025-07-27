@@ -1,0 +1,29 @@
+.home-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #e30613;
+    margin-bottom: 20px;
+}
+
+.filters {
+    margin-bottom: 30px;
+}
+
+.filters input,
+.filters select {
+    padding: 8px;
+    margin: 0 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
